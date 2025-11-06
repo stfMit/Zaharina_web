@@ -16,6 +16,7 @@
 }
 
 .App-header {
+  position:relative;
   background-color: #F9DC49;
   user-select:none;
   min-height: 100vh;
@@ -32,11 +33,11 @@
 }
 .Bite{
   position:absolute;
-  top:160px;
+
   width:200px;
   height:200px;
   border-radius:50%;
-  background-color: #F9DC49;
+  background-color: red;
 
 }
 @keyframes App-logo-spin {
