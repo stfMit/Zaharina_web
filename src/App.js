@@ -1,15 +1,18 @@
+import React, { useState } from "react";
 import LoadingScreen from "./components/LoadingScreen/LoadingScreen";
-import Box from '@mui/material/Box';
-function App() {
-    const SX={
+import FrontPage from "./components/FrontPage/FrontPage";
 
-    }
-
+export default function App() {
+    const [doneLoading, setDoneLoading] = useState(false);
+    console.log(doneLoading);
     return (
-        <Box >
-          <LoadingScreen />
-        </Box>
+        <>
+            {!doneLoading ? (
+                <LoadingScreen onFinish={() => setDoneLoading(true)} />
+            ) : (
+                <FrontPage />
+            )}
+        </>
     );
-}
 
-export default App;
+}
