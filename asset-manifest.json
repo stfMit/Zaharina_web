@@ -1,0 +1,14 @@
+{
+  "files": {
+    "main.css": "/Zaharina_web/static/css/main.911c8680.css",
+    "main.js": "/Zaharina_web/static/js/main.69ab508a.js",
+    "static/media/cookie_ai.png": "/Zaharina_web/static/media/cookie_ai.134f0800f0e4a884b1c8.png",
+    "index.html": "/Zaharina_web/index.html",
+    "main.911c8680.css.map": "/Zaharina_web/static/css/main.911c8680.css.map",
+    "main.69ab508a.js.map": "/Zaharina_web/static/js/main.69ab508a.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.911c8680.css",
+    "static/js/main.69ab508a.js"
+  ]
+}
